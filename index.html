@@ -1,84 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayank Pratap Singh - Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <style>
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
-        .section-title { margin-top: 40px; }
-        .profile-img { width: 160px; border-radius: 50%; margin-bottom: 20px; }
-        .cert-link { word-break: break-all; }
-        footer { margin-top: 40px; padding: 20px 0; background-color: #f8f9fa; text-align: center; }
-        .cert-image { max-width: 100%; height: auto; margin-top: 10px; border: 1px solid #ccc; padding: 5px; border-radius: 8px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayank Pratap Singh - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Exo+2&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Exo 2', sans-serif;
+      color: #fff;
+      background: url('https://media.giphy.com/media/3o7btXJQm5DD8cB1nO/giphy.gif') no-repeat center center fixed;
+      background-size: cover;
+      animation: stars 100s linear infinite;
+    }
+    @keyframes stars {
+      0% {background-position: 0 0;}
+      100% {background-position: 10000px 10000px;}
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 3rem;
+    }
+    .headline {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .section-title {
+      margin-top: 40px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .profile-img {
+      width: 160px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 3px solid white;
+    }
+    .cert-link {
+      word-break: break-word;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px 0;
+      text-align: center;
+      color: #ddd;
+    }
+    .cert-image {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      padding: 5px;
+      border-radius: 8px;
+    }
+  </style>
 </head>
-<body class="container py-4">
+<body>
+  <div class="overlay container py-4">
     <div class="text-center">
-        <img src="PASSPORT RECENT PHOTO.jpg" alt="Mayank Profile" class="profile-img">
-        <h1>Mayank Pratap Singh</h1>
-        <p><em>“A curious mind at the intersection of ancient wisdom, modern science, and intelligent technology.”</em></p>
+      <img src="PASSPORT RECENT PHOTO.jpg" alt="Mayank Profile" class="profile-img">
+      <h1>Mayank Pratap Singh</h1>
+      <p class="headline">Exploring the Universe through Code, Cosmos & Consciousness</p>
     </div>
 
     <h3 class="section-title">About Me</h3>
-    <p>Motivated and detail-oriented B.E. Computer Science Engineering student with hands-on experience in AI, Data Analytics, and Embedded Systems. Open about academic delays due to personal and financial challenges. Focused on skill development, hands-on projects, and real-world problem solving. Passionate about blending ancient cosmology with modern intelligence and data science.</p>
+    <p>I am deeply passionate about exploring the convergence of ancient texts, space science, and advanced technologies to uncover universal patterns and knowledge systems. With a background in Computer Science Engineering and strong interest in Artificial Intelligence and Machine Learning, I strive to bridge the gap between timeless cosmological insights and data-driven modern solutions. My curiosity drives me toward fields like vortex mathematics, sacred geometry, and space-time theory, blending them with computational thinking. I aim to develop innovative tools, models, and research that connect the metaphysical with the measurable. Constantly learning, I seek opportunities that allow me to integrate scientific rigor with philosophical depth.</p>
 
     <h3 class="section-title">Education</h3>
     <ul>
-        <li>Chandigarh University, Mohali, Punjab (2021 – Present)</li>
-        <li>Lucknow Public School, Lucknow, UP</li>
+      <li>Chandigarh University, Mohali, Punjab</li>
+      <li>Lucknow Public School, Lucknow, UP</li>
     </ul>
 
     <h3 class="section-title">Experience</h3>
     <ul>
-        <li><strong>AI Intern</strong> at 1Stop.ai (7 months)<br>Worked on real-world AI projects, using Python, TensorFlow, PyTorch, Scikit-learn, etc.</li>
-        <li><strong>Data Science Intern</strong> at Prodigy Infotech (1 month)<br>EDA, ML model building, visualizations using Power BI/Tableau, Python libraries</li>
+      <li><strong>AI Intern</strong> at 1Stop.ai<br>Worked on real-world AI projects, using Python, TensorFlow, PyTorch, Scikit-learn, etc.</li>
+      <li><strong>Data Science Intern</strong> at Prodigy Infotech<br>EDA, ML model building, visualizations using Power BI/Tableau, Python libraries</li>
     </ul>
 
     <h3 class="section-title">Skills</h3>
     <ul>
-        <li><strong>Programming:</strong> Python, C++, SQL</li>
-        <li><strong>Libraries/Tools:</strong> Pandas, Matplotlib, TensorFlow, NumPy, Scikit-Learn, Seaborn, PyTorch, Power BI, MS Excel, Google Sheets, Git, GitHub, VS Code, Anaconda, Jupyter Notebook, Google Docs, Google Colab, ChatGPT</li>
-        <li><strong>Soft Skills:</strong> Communication, Coordination, English & Hindi Fluency</li>
+      <li><strong>Programming:</strong> Python, C++, SQL</li>
+      <li><strong>Libraries/Tools:</strong> Pandas, Matplotlib, TensorFlow, NumPy, Scikit-Learn, Seaborn, PyTorch, Power BI, MS Excel, Google Sheets, Git, GitHub, VS Code, Anaconda, Jupyter Notebook, Google Docs, Google Colab, ChatGPT</li>
+      <li><strong>Data Skills:</strong> Data Visualization, Data Preprocessing, Data Preparation, Data Extraction, Data Cleaning, Data Analysis</li>
+      <li><strong>Research:</strong> Vortex Math</li>
+      <li><strong>Soft Skills:</strong> Communication, Coordination, English & Hindi Fluency</li>
     </ul>
 
     <h3 class="section-title">Projects</h3>
     <ol>
-        <li><strong>Policy Navigator</strong>: Ask questions about laws using LLM + PDF retrieval</li>
-        <li><strong>Capsule Network for MNIST</strong>: Deep learning model using capsules for classification</li>
-        <li><strong>The 9th Code</strong>: Data-driven analysis of number 9 in culture, science, spirituality</li>
-        <li><strong>Vedantic Cosmos</strong>: Compare Vedic universe mentions vs modern astronomy</li>
-        <li><strong>Automatic Speech Recognition</strong>: Convert speech to text using ASR techniques</li>
-        <li><strong>Animal Voice Pattern Recognition</strong>: Categorize and visualize animal sounds</li>
+      <li><strong>Policy Navigator</strong>: Ask questions about laws using LLM + PDF retrieval</li>
+      <li><strong>Capsule Network for MNIST</strong>: Deep learning model using capsules for classification</li>
+      <li><strong>The 9th Code</strong>: Data-driven analysis of number 9 in culture, science, spirituality</li>
+      <li><strong>Vedantic Cosmos</strong>: Compare Vedic universe mentions vs modern astronomy</li>
+      <li><strong>Automatic Speech Recognition</strong>: Convert speech to text using ASR techniques</li>
+      <li><strong>Animal Voice Pattern Recognition</strong>: Categorize and visualize animal sounds</li>
     </ol>
 
     <h3 class="section-title">Achievements</h3>
     <ul>
-        <li>Good handwriting and participation certificates</li>
-        <li>Cricket trophy and school-level recognition</li>
+      <li>Good handwriting and participation certificates</li>
+      <li>Cricket trophy and school-level recognition</li>
     </ul>
 
     <h3 class="section-title">Certificates</h3>
     <ul>
-        <li><a href="https://coursera.org/verify/JG48ORA4L39B" target="_blank" class="cert-link">Introduction to Google SEO - Coursera</a></li>
-        <li><a href="https://coursera.org/verify/AYKGMVWF3IXE" target="_blank" class="cert-link">AI For Everyone - Andrew Ng</a></li>
-        <li><a href="https://coursera.org/verify/YMXM40K1KRS0" target="_blank" class="cert-link">Create ML Models in Microsoft Azure</a></li>
-        <li><a href="https://coursera.org/verify/DKUHX4M1NQAI" target="_blank" class="cert-link">Technical Support Fundamentals - Google</a></li>
-        <li><a href="https://coursera.org/verify/DYW99G9OYN5U" target="_blank" class="cert-link">Apache Spark with Scala</a></li>
-        <li><a href="https://coursera.org/verify/XRZMFGWOLQUD" target="_blank" class="cert-link">Intro to Data Engineering - IBM</a></li>
-        <li><a href="https://coursera.org/verify/48S9KY1L2VX2" target="_blank" class="cert-link">Intro to Data Analytics - Meta</a></li>
-        <li><a href="https://coursera.org/verify/XSVU67MICUAB" target="_blank" class="cert-link">Intro to AI - IBM</a></li>
-        <li>Neatness Certificate - Lucknow Public School<br><img src="NEATNESS CERTIFICATE.jpg" alt="Neatness Certificate" class="cert-image"></li>
-        <li>Player of the Day - Star Jewellers Cricket T10 League<br><img src="TENNIS CRICKET CERTIFICATE.jpg" alt="Cricket Certificate" class="cert-image"></li>
-        <li>Participation - Jagran Sanskarshala Programme<br><img src="DAINIK JAGRAN CERTIFICATE.jpg" alt="Dainik Jagran Certificate" class="cert-image"></li>
+      <li><a href="https://coursera.org/verify/JG48ORA4L39B" target="_blank" class="cert-link">Introduction to Google SEO - Coursera</a></li>
+      <li><a href="https://coursera.org/verify/AYKGMVWF3IXE" target="_blank" class="cert-link">AI For Everyone - Andrew Ng</a></li>
+      <li><a href="https://coursera.org/verify/YMXM40K1KRS0" target="_blank" class="cert-link">Create ML Models in Microsoft Azure</a></li>
+      <li><a href="https://coursera.org/verify/DKUHX4M1NQAI" target="_blank" class="cert-link">Technical Support Fundamentals - Google</a></li>
+      <li><a href="https://coursera.org/verify/DYW99G9OYN5U" target="_blank" class="cert-link">Apache Spark with Scala</a></li>
+      <li><a href="https://coursera.org/verify/XRZMFGWOLQUD" target="_blank" class="cert-link">Intro to Data Engineering - IBM</a></li>
+      <li><a href="https://coursera.org/verify/48S9KY1L2VX2" target="_blank" class="cert-link">Intro to Data Analytics - Meta</a></li>
+      <li><a href="https://coursera.org/verify/XSVU67MICUAB" target="_blank" class="cert-link">Intro to AI - IBM</a></li>
+      <li>Neatness Certificate - Lucknow Public School<br><img src="NEATNESS CERTIFICATE.jpg" alt="Neatness Certificate" class="cert-image"></li>
+      <li>Player of the Day - Star Jewellers Cricket T10 League<br><img src="TENNIS CRICKET CERTIFICATE.jpg" alt="Cricket Certificate" class="cert-image"></li>
     </ul>
 
-    <h3 class="section-title">Resume</h3>
-    <p><a href="Mayank.Resume.pdf" download>Click here to download my resume (PDF)</a></p>
+    <h3 class="section-title">Hobbies & Interests</h3>
+    <ul>
+      <li>Playing Cricket and Badminton</li>
+      <li>Exploring Space, Universes, and Time concepts</li>
+      <li>Reading ancient texts across religions (esp. Hinduism)</li>
+      <li>Curious about Vortex Math, Sacred Geometry</li>
+      <li>Traveling and Researching Multidimensional Knowledge</li>
+    </ul>
 
     <footer>
-        <p>&copy; 2025 Mayank Pratap Singh | Built with love, purpose, and AI</p>
+      <p>&copy; 2025 Mayank Pratap Singh | Built with love, purpose, and AI</p>
     </footer>
+  </div>
 </body>
 </html>
